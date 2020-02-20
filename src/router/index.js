@@ -16,26 +16,6 @@ export default new Router({
         {
             path: '/new',
             component: SuiteForm
-        },
-        // {
-        //     path: '/steps',
-        //     component: StepsList,
-        //     children: [
-        //         {
-        //             path: '/:id',
-        //             component: StepDetails,
-        //             children: [
-        //                 {
-        //                     path: '/update',
-        //                     component: StepUpdate
-        //                 },
-        //                 {
-        //                     path: '/delete',
-        //                     component: StepDelete
-        //                 }
-        //             ]
-        //         }
-        //     ]
-        // }
+        }
     ]
 })
